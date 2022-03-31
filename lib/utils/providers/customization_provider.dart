@@ -15,7 +15,7 @@ class CustomizationProvider extends ChangeNotifier {
   bool _darkMode = true;
   bool _centerTaskbar = true;
   bool _enableBlur = true;
-  bool _coloredTitlebars = false;
+  bool _coloredTitlebars = true;
   bool _transparentColoredTitlebars = false;
 
   List<String> _pinnedApps = List.from(

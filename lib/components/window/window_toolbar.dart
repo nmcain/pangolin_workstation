@@ -153,8 +153,8 @@ class _PangolinWindowToolbarState extends State<PangolinWindowToolbar> {
                         ),
                         WindowToolbarButton(
                           icon: layout.dock == WindowDock.maximized
-                              ? const Icon(_ToolbarIcons.minimize)
-                              : const Icon(_ToolbarIcons.maximize),
+                              ? const Icon(Icons.fullscreen)
+                              : const Icon(Icons.fullscreen_exit),
                           onTap: () {
                             if (layout.dock == WindowDock.maximized) {
                               layout.dock = WindowDock.none;
